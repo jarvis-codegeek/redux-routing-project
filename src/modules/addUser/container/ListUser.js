@@ -26,7 +26,6 @@ class ListOfUsers extends React.Component {
      }
   
      renderTableData() {
-         console.log('renderTable', this.props.listOfUsersData)
         return this.props.listOfUsersData.map((item, index) => {
            const { fullName, emailId, mobileNo } = item //destructuring
            return (
